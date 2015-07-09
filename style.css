@@ -43,6 +43,7 @@ header {
 	float: left;
 	font-size: 1.2em;
 	clear: both;
+	margin-bottom: 25px;
 }
 
 .left-input p {
