@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 100%
+}
+
+.title-section, .comment-input {
+	max-width: 999px;
+	margin: auto;
+}
+
+header {
+	margin-top: 50px;
+	max-width: 999px;
+	border-bottom: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left-title {
+	width: 333px;
+	float: left;
+	font-size: 4em;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.right-title {
+	width: 666px;
+	float: right;
+	margin: auto;
+	font-style: italic;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.left-input {
+	width: 333px;
+	float: left;
+	font-size: 1.2em;
+	clear: both;
+}
+
+.left-input p {
+	padding-bottom: 5px;
+}
+
+button {
+	padding: 0px 4px 0px 4px;
+}
+
+.right-output {
+	width: 666px;
+	float: right;
+	margin-bottom: 25px;
+}
+
+/* for fake comment styles */
+.right-output p {
+	margin: 6px;
+	border-radius: 5px;
+	padding: 2px 2px 2px 5px;
+	overflow: auto;
+/*	background-color: #66ff66;*/
+}
+
+.right-output p:nth-child(even) {
+	background: lavender;
+}
+
+.right-output p:nth-child(odd) {
+	background: gainsboro;
+}
+
+footer p {
+	max-width: 999px;
+	border-top: 1px solid black;
+	padding-top: 10px;
+	font-size: 0.9em;
+	clear: both;
+	margin: auto;
+}
